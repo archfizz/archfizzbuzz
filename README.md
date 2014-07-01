@@ -51,7 +51,7 @@ The tests can be found in the `features` directory.
 
 ```feature
 Feature: Generating the FizzBuzz sequence
-  In order to teach about division (or BBD)
+  In order to teach about division (or BDD)
   As a teacher (or developer)
   I need to generate the sequence of the FizzBuzz game
 
