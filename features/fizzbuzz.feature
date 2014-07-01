@@ -3,7 +3,7 @@ Feature: Generating the FizzBuzz sequence
   As a teacher
   I need to generate the sequence of the FizzBuzz game
 
-Scenario: Printing the sequence from 1 to 50
+Scenario: Printing the sequence from 1 to 32
   Given I am in the FizzBuzz app directory
    When I run "./fizzbuzz 32"
    Then it should print:
