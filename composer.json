@@ -1,0 +1,27 @@
+{
+    "name": "archfizz/archfizzbuzz",
+    "description": "FizzBuzz using PhpSpec",
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "require-dev": {
+        "php": "~5.4",
+        "phpspec/phpspec": "~2",
+        "behat/behat": "~3",
+        "phpunit/phpunit": "~4",
+        "symfony/process": "~2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Elsodaney",
+            "email": "adam.elso@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
