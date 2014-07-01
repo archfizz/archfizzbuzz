@@ -15,6 +15,18 @@ $ cd archfizzbuzz
 $ composer install # requires Composer to be installed globally
 ```
 
+Usage
+-----
+
+To print the sequence for 100 steps for example, run:
+
+```bash
+$ ./fizzbuzz 100      # returns 1, 2, Fizz, 4, Buzz, Fizz, 7, 8...
+```
+
+If no number is provided, it will default to 15 steps.
+
+
 Run Unit Tests/Specifications with PhpSpec
 ------------------------------------------
 
