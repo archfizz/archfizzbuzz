@@ -15,7 +15,7 @@ class SequenceIteratorSpec extends ObjectBehavior
 
     function it_is_initializable()
     {
-        $this->shouldHaveType('ArchFizz\StdoutIterator');
+        $this->shouldHaveType('ArchFizz\SequenceIterator');
     }
 
     function it_returns_a_generated_sequence_a_limited_number_of_times(FizzBuzz $fizzBuzz)
