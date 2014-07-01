@@ -27,7 +27,7 @@ class ArchFizzBuzzSpec extends ObjectBehavior
         $this->play(10)->shouldReturn("Buzz");
     }
 
-    function it_returns_Buzz_for_multiples_of_3_and_5()
+    function it_returns_FizzBuzz_for_multiples_of_3_and_5()
     {
         $this->play(30)->shouldReturn("FizzBuzz");
     }
