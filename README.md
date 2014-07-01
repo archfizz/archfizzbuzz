@@ -1,6 +1,9 @@
 ArchFizzBuzz
 ============
 
+[![Build Status](https://travis-ci.org/archfizz/archfizzbuzz.svg?branch=master)](https://travis-ci.org/archfizz/archfizzbuzz)
+
+
 An example of using Behavior-Driven Development and (very basic) Domain Driven Design
 for creating a FizzBuzz library and command-line utility using [Behat][] 3 for functional
 testing and [PhpSpec][] 2 for unit testing / specing.
