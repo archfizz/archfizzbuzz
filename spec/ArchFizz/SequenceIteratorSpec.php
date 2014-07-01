@@ -6,7 +6,7 @@ use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use FizzBuzz\FizzBuzz;
 
-class StdoutIteratorSpec extends ObjectBehavior
+class SequenceIteratorSpec extends ObjectBehavior
 {
     function let(FizzBuzz $fizzBuzz)
     {
