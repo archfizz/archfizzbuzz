@@ -34,7 +34,7 @@ Run Unit Tests/Specifications with PhpSpec
 ------------------------------------------
 
 ```bash
-$ bin/phpspec run
+$ bin/phpspec run -fpretty
 ```
 
 This specs can be found in the `specs` directory.
@@ -44,7 +44,7 @@ Run Integration/Functional Tests with Behat
 -------------------------------------------
 
 ```bash
-$ bin/behat
+$ bin/behat --format=pretty
 ```
 
 The tests can be found in the `features` directory.
